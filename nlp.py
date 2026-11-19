@@ -9,7 +9,7 @@ print(word_tokenize(sent))
 print(sent_tokenize(sent))
 # Stemming using NLTK
 from nltk.stem import PorterStemmer
-
+# initial
 # create an object of class PorterStemmer
 porter = PorterStemmer()
 print(porter.stem("running"))
